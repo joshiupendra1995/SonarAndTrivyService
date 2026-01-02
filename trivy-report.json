@@ -1,0 +1,1197 @@
+{
+  "SchemaVersion": 2,
+  "ReportID": "019b7e30-ad35-7bb6-b00c-ce0ffbdc9175",
+  "CreatedAt": "2026-01-02T15:41:17.9417675+05:30",
+  "ArtifactName": ".",
+  "ArtifactType": "filesystem",
+  "Results": [
+    {
+      "Target": "pom.xml",
+      "Class": "lang-pkgs",
+      "Type": "pom",
+      "Packages": [
+        {
+          "ID": "com.sonartrivy:SonarAndTrivyService:0.0.1-SNAPSHOT",
+          "Name": "com.sonartrivy:SonarAndTrivyService",
+          "Identifier": {
+            "PURL": "pkg:maven/com.sonartrivy/SonarAndTrivyService@0.0.1-SNAPSHOT",
+            "UID": "1cfb780aa668a1eb"
+          },
+          "Version": "0.0.1-SNAPSHOT",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Relationship": "root",
+          "DependsOn": [
+            "org.apache.logging.log4j:log4j-core:2.14.1",
+            "org.projectlombok:lombok:1.18.42",
+            "org.springframework.boot:spring-boot-starter-web:4.0.1",
+            "org.springframework.boot:spring-boot-starter:4.0.1"
+          ]
+        },
+        {
+          "ID": "org.apache.logging.log4j:log4j-core:2.14.1",
+          "Name": "org.apache.logging.log4j:log4j-core",
+          "Identifier": {
+            "PURL": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+            "UID": "1e36f7410f30bc73"
+          },
+          "Version": "2.14.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Relationship": "direct",
+          "DependsOn": [
+            "org.apache.logging.log4j:log4j-api:2.25.3"
+          ],
+          "Locations": [
+            {
+              "StartLine": 37,
+              "EndLine": 41
+            }
+          ]
+        },
+        {
+          "ID": "org.projectlombok:lombok:1.18.42",
+          "Name": "org.projectlombok:lombok",
+          "Identifier": {
+            "PURL": "pkg:maven/org.projectlombok/lombok@1.18.42",
+            "UID": "cb568f12f46a2b87"
+          },
+          "Version": "1.18.42",
+          "Licenses": [
+            "MIT"
+          ],
+          "Relationship": "direct",
+          "Locations": [
+            {
+              "StartLine": 51,
+              "EndLine": 55
+            }
+          ]
+        },
+        {
+          "ID": "org.springframework.boot:spring-boot-starter:4.0.1",
+          "Name": "org.springframework.boot:spring-boot-starter",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework.boot/spring-boot-starter@4.0.1",
+            "UID": "fd386a211cf8e05e"
+          },
+          "Version": "4.0.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Relationship": "direct",
+          "DependsOn": [
+            "jakarta.annotation:jakarta.annotation-api:3.0.0",
+            "org.springframework.boot:spring-boot-autoconfigure:4.0.1",
+            "org.springframework.boot:spring-boot-starter-logging:4.0.1",
+            "org.yaml:snakeyaml:2.5"
+          ],
+          "Locations": [
+            {
+              "StartLine": 33,
+              "EndLine": 36
+            }
+          ]
+        },
+        {
+          "ID": "org.springframework.boot:spring-boot-starter-web:4.0.1",
+          "Name": "org.springframework.boot:spring-boot-starter-web",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework.boot/spring-boot-starter-web@4.0.1",
+            "UID": "c9dd51787169ba"
+          },
+          "Version": "4.0.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Relationship": "direct",
+          "DependsOn": [
+            "org.springframework.boot:spring-boot-http-converter:4.0.1",
+            "org.springframework.boot:spring-boot-starter-jackson:4.0.1",
+            "org.springframework.boot:spring-boot-starter-tomcat:4.0.1",
+            "org.springframework.boot:spring-boot-webmvc:4.0.1"
+          ],
+          "Locations": [
+            {
+              "StartLine": 42,
+              "EndLine": 45
+            }
+          ]
+        },
+        {
+          "ID": "ch.qos.logback:logback-classic:1.5.22",
+          "Name": "ch.qos.logback:logback-classic",
+          "Identifier": {
+            "PURL": "pkg:maven/ch.qos.logback/logback-classic@1.5.22",
+            "UID": "5ef2d3f0bacf0a4f"
+          },
+          "Version": "1.5.22",
+          "Licenses": [
+            "EPL-1.0",
+            "LGPL-2.1-only"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "ch.qos.logback:logback-core:1.5.22",
+            "org.slf4j:slf4j-api:2.0.17"
+          ]
+        },
+        {
+          "ID": "ch.qos.logback:logback-core:1.5.22",
+          "Name": "ch.qos.logback:logback-core",
+          "Identifier": {
+            "PURL": "pkg:maven/ch.qos.logback/logback-core@1.5.22",
+            "UID": "e2fcbcbe4ef7d192"
+          },
+          "Version": "1.5.22",
+          "Licenses": [
+            "EPL-1.0",
+            "LGPL-2.1-only"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "com.fasterxml.jackson.core:jackson-annotations:2.20",
+          "Name": "com.fasterxml.jackson.core:jackson-annotations",
+          "Identifier": {
+            "PURL": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.20",
+            "UID": "74c1f28576a5e44f"
+          },
+          "Version": "2.20",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "commons-logging:commons-logging:1.3.5",
+          "Name": "commons-logging:commons-logging",
+          "Identifier": {
+            "PURL": "pkg:maven/commons-logging/commons-logging@1.3.5",
+            "UID": "9a4b661d2ffef629"
+          },
+          "Version": "1.3.5",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "io.micrometer:micrometer-commons:1.16.1",
+          "Name": "io.micrometer:micrometer-commons",
+          "Identifier": {
+            "PURL": "pkg:maven/io.micrometer/micrometer-commons@1.16.1",
+            "UID": "6d5d91ab39e22e0c"
+          },
+          "Version": "1.16.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.jspecify:jspecify:1.0.0"
+          ]
+        },
+        {
+          "ID": "io.micrometer:micrometer-observation:1.16.1",
+          "Name": "io.micrometer:micrometer-observation",
+          "Identifier": {
+            "PURL": "pkg:maven/io.micrometer/micrometer-observation@1.16.1",
+            "UID": "5830667c80576de"
+          },
+          "Version": "1.16.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "io.micrometer:micrometer-commons:1.16.1",
+            "org.jspecify:jspecify:1.0.0"
+          ]
+        },
+        {
+          "ID": "jakarta.annotation:jakarta.annotation-api:3.0.0",
+          "Name": "jakarta.annotation:jakarta.annotation-api",
+          "Identifier": {
+            "PURL": "pkg:maven/jakarta.annotation/jakarta.annotation-api@3.0.0",
+            "UID": "7c88f6016c80e26e"
+          },
+          "Version": "3.0.0",
+          "Licenses": [
+            "EPL-2.0",
+            "GPL-2.0-with-classpath-exception"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "org.apache.logging.log4j:log4j-api:2.25.3",
+          "Name": "org.apache.logging.log4j:log4j-api",
+          "Identifier": {
+            "PURL": "pkg:maven/org.apache.logging.log4j/log4j-api@2.25.3",
+            "UID": "81f25359ded31547"
+          },
+          "Version": "2.25.3",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "org.apache.logging.log4j:log4j-to-slf4j:2.25.3",
+          "Name": "org.apache.logging.log4j:log4j-to-slf4j",
+          "Identifier": {
+            "PURL": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.25.3",
+            "UID": "b4b296ef969edc98"
+          },
+          "Version": "2.25.3",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.apache.logging.log4j:log4j-api:2.25.3",
+            "org.slf4j:slf4j-api:2.0.17"
+          ]
+        },
+        {
+          "ID": "org.apache.tomcat.embed:tomcat-embed-core:11.0.15",
+          "Name": "org.apache.tomcat.embed:tomcat-embed-core",
+          "Identifier": {
+            "PURL": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@11.0.15",
+            "UID": "2975b49bb601c8bd"
+          },
+          "Version": "11.0.15",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "org.apache.tomcat.embed:tomcat-embed-el:11.0.15",
+          "Name": "org.apache.tomcat.embed:tomcat-embed-el",
+          "Identifier": {
+            "PURL": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@11.0.15",
+            "UID": "742f033421dfbb2"
+          },
+          "Version": "11.0.15",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "org.apache.tomcat.embed:tomcat-embed-websocket:11.0.15",
+          "Name": "org.apache.tomcat.embed:tomcat-embed-websocket",
+          "Identifier": {
+            "PURL": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@11.0.15",
+            "UID": "6437a1632741e6f0"
+          },
+          "Version": "11.0.15",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.apache.tomcat.embed:tomcat-embed-core:11.0.15"
+          ]
+        },
+        {
+          "ID": "org.jspecify:jspecify:1.0.0",
+          "Name": "org.jspecify:jspecify",
+          "Identifier": {
+            "PURL": "pkg:maven/org.jspecify/jspecify@1.0.0",
+            "UID": "96f42a05b79ad06b"
+          },
+          "Version": "1.0.0",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "org.slf4j:jul-to-slf4j:2.0.17",
+          "Name": "org.slf4j:jul-to-slf4j",
+          "Identifier": {
+            "PURL": "pkg:maven/org.slf4j/jul-to-slf4j@2.0.17",
+            "UID": "89e47b7719d28286"
+          },
+          "Version": "2.0.17",
+          "Licenses": [
+            "MIT"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.slf4j:slf4j-api:2.0.17"
+          ]
+        },
+        {
+          "ID": "org.slf4j:slf4j-api:2.0.17",
+          "Name": "org.slf4j:slf4j-api",
+          "Identifier": {
+            "PURL": "pkg:maven/org.slf4j/slf4j-api@2.0.17",
+            "UID": "700c2fbd6d839177"
+          },
+          "Version": "2.0.17",
+          "Licenses": [
+            "MIT"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "org.springframework.boot:spring-boot:4.0.1",
+          "Name": "org.springframework.boot:spring-boot",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework.boot/spring-boot@4.0.1",
+            "UID": "fdd4943c3f451e85"
+          },
+          "Version": "4.0.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.springframework:spring-context:7.0.2",
+            "org.springframework:spring-core:7.0.2"
+          ]
+        },
+        {
+          "ID": "org.springframework.boot:spring-boot-autoconfigure:4.0.1",
+          "Name": "org.springframework.boot:spring-boot-autoconfigure",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@4.0.1",
+            "UID": "a83fa5e83bb19069"
+          },
+          "Version": "4.0.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.springframework.boot:spring-boot:4.0.1"
+          ]
+        },
+        {
+          "ID": "org.springframework.boot:spring-boot-http-converter:4.0.1",
+          "Name": "org.springframework.boot:spring-boot-http-converter",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework.boot/spring-boot-http-converter@4.0.1",
+            "UID": "b56b42ad537e39e"
+          },
+          "Version": "4.0.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.springframework.boot:spring-boot:4.0.1",
+            "org.springframework:spring-web:7.0.2"
+          ]
+        },
+        {
+          "ID": "org.springframework.boot:spring-boot-jackson:4.0.1",
+          "Name": "org.springframework.boot:spring-boot-jackson",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework.boot/spring-boot-jackson@4.0.1",
+            "UID": "97174f9f400fb0b5"
+          },
+          "Version": "4.0.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.springframework.boot:spring-boot:4.0.1",
+            "tools.jackson.core:jackson-databind:3.0.3"
+          ]
+        },
+        {
+          "ID": "org.springframework.boot:spring-boot-servlet:4.0.1",
+          "Name": "org.springframework.boot:spring-boot-servlet",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework.boot/spring-boot-servlet@4.0.1",
+            "UID": "274dad6a333674e5"
+          },
+          "Version": "4.0.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.springframework.boot:spring-boot:4.0.1",
+            "org.springframework:spring-web:7.0.2"
+          ]
+        },
+        {
+          "ID": "org.springframework.boot:spring-boot-starter-jackson:4.0.1",
+          "Name": "org.springframework.boot:spring-boot-starter-jackson",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework.boot/spring-boot-starter-jackson@4.0.1",
+            "UID": "41185a317efb9974"
+          },
+          "Version": "4.0.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.springframework.boot:spring-boot-jackson:4.0.1",
+            "org.springframework.boot:spring-boot-starter:4.0.1"
+          ]
+        },
+        {
+          "ID": "org.springframework.boot:spring-boot-starter-logging:4.0.1",
+          "Name": "org.springframework.boot:spring-boot-starter-logging",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@4.0.1",
+            "UID": "cc6cc4e0f92acf6b"
+          },
+          "Version": "4.0.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "ch.qos.logback:logback-classic:1.5.22",
+            "org.apache.logging.log4j:log4j-to-slf4j:2.25.3",
+            "org.slf4j:jul-to-slf4j:2.0.17"
+          ]
+        },
+        {
+          "ID": "org.springframework.boot:spring-boot-starter-tomcat:4.0.1",
+          "Name": "org.springframework.boot:spring-boot-starter-tomcat",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@4.0.1",
+            "UID": "60ca8321b1bc1389"
+          },
+          "Version": "4.0.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.springframework.boot:spring-boot-starter-tomcat-runtime:4.0.1",
+            "org.springframework.boot:spring-boot-starter:4.0.1",
+            "org.springframework.boot:spring-boot-tomcat:4.0.1"
+          ]
+        },
+        {
+          "ID": "org.springframework.boot:spring-boot-starter-tomcat-runtime:4.0.1",
+          "Name": "org.springframework.boot:spring-boot-starter-tomcat-runtime",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat-runtime@4.0.1",
+            "UID": "db66de559ac16eee"
+          },
+          "Version": "4.0.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "jakarta.annotation:jakarta.annotation-api:3.0.0",
+            "org.apache.tomcat.embed:tomcat-embed-core:11.0.15",
+            "org.apache.tomcat.embed:tomcat-embed-el:11.0.15",
+            "org.apache.tomcat.embed:tomcat-embed-websocket:11.0.15",
+            "org.springframework.boot:spring-boot-tomcat:4.0.1",
+            "org.springframework.boot:spring-boot-web-server:4.0.1"
+          ]
+        },
+        {
+          "ID": "org.springframework.boot:spring-boot-tomcat:4.0.1",
+          "Name": "org.springframework.boot:spring-boot-tomcat",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework.boot/spring-boot-tomcat@4.0.1",
+            "UID": "eef417400ed1f350"
+          },
+          "Version": "4.0.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "jakarta.annotation:jakarta.annotation-api:3.0.0",
+            "org.apache.tomcat.embed:tomcat-embed-core:11.0.15",
+            "org.springframework.boot:spring-boot-web-server:4.0.1"
+          ]
+        },
+        {
+          "ID": "org.springframework.boot:spring-boot-web-server:4.0.1",
+          "Name": "org.springframework.boot:spring-boot-web-server",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework.boot/spring-boot-web-server@4.0.1",
+            "UID": "61875807d63ca8b9"
+          },
+          "Version": "4.0.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "org.springframework.boot:spring-boot-webmvc:4.0.1",
+          "Name": "org.springframework.boot:spring-boot-webmvc",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework.boot/spring-boot-webmvc@4.0.1",
+            "UID": "ce5600fe007910c1"
+          },
+          "Version": "4.0.1",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.springframework.boot:spring-boot-http-converter:4.0.1",
+            "org.springframework.boot:spring-boot-servlet:4.0.1",
+            "org.springframework:spring-web:7.0.2",
+            "org.springframework:spring-webmvc:7.0.2"
+          ]
+        },
+        {
+          "ID": "org.springframework:spring-aop:7.0.2",
+          "Name": "org.springframework:spring-aop",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework/spring-aop@7.0.2",
+            "UID": "90eaf5a396271a9e"
+          },
+          "Version": "7.0.2",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.springframework:spring-beans:7.0.2",
+            "org.springframework:spring-core:7.0.2"
+          ]
+        },
+        {
+          "ID": "org.springframework:spring-beans:7.0.2",
+          "Name": "org.springframework:spring-beans",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework/spring-beans@7.0.2",
+            "UID": "75e64cfda5fc31ba"
+          },
+          "Version": "7.0.2",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.springframework:spring-core:7.0.2"
+          ]
+        },
+        {
+          "ID": "org.springframework:spring-context:7.0.2",
+          "Name": "org.springframework:spring-context",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework/spring-context@7.0.2",
+            "UID": "c36083cffaac7bcc"
+          },
+          "Version": "7.0.2",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "io.micrometer:micrometer-observation:1.16.1",
+            "org.springframework:spring-aop:7.0.2",
+            "org.springframework:spring-beans:7.0.2",
+            "org.springframework:spring-core:7.0.2",
+            "org.springframework:spring-expression:7.0.2"
+          ]
+        },
+        {
+          "ID": "org.springframework:spring-core:7.0.2",
+          "Name": "org.springframework:spring-core",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework/spring-core@7.0.2",
+            "UID": "8d9d8c33a67813fe"
+          },
+          "Version": "7.0.2",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "commons-logging:commons-logging:1.3.5",
+            "org.jspecify:jspecify:1.0.0"
+          ]
+        },
+        {
+          "ID": "org.springframework:spring-expression:7.0.2",
+          "Name": "org.springframework:spring-expression",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework/spring-expression@7.0.2",
+            "UID": "afa2f86743fea5f2"
+          },
+          "Version": "7.0.2",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.springframework:spring-core:7.0.2"
+          ]
+        },
+        {
+          "ID": "org.springframework:spring-web:7.0.2",
+          "Name": "org.springframework:spring-web",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework/spring-web@7.0.2",
+            "UID": "3d701ef0dc1eb9a5"
+          },
+          "Version": "7.0.2",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "io.micrometer:micrometer-observation:1.16.1",
+            "org.springframework:spring-beans:7.0.2",
+            "org.springframework:spring-core:7.0.2"
+          ]
+        },
+        {
+          "ID": "org.springframework:spring-webmvc:7.0.2",
+          "Name": "org.springframework:spring-webmvc",
+          "Identifier": {
+            "PURL": "pkg:maven/org.springframework/spring-webmvc@7.0.2",
+            "UID": "a5709a2ec4c66d24"
+          },
+          "Version": "7.0.2",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "org.springframework:spring-aop:7.0.2",
+            "org.springframework:spring-beans:7.0.2",
+            "org.springframework:spring-context:7.0.2",
+            "org.springframework:spring-core:7.0.2",
+            "org.springframework:spring-expression:7.0.2",
+            "org.springframework:spring-web:7.0.2"
+          ]
+        },
+        {
+          "ID": "org.yaml:snakeyaml:2.5",
+          "Name": "org.yaml:snakeyaml",
+          "Identifier": {
+            "PURL": "pkg:maven/org.yaml/snakeyaml@2.5",
+            "UID": "4efb40077832322"
+          },
+          "Version": "2.5",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "tools.jackson.core:jackson-core:3.0.3",
+          "Name": "tools.jackson.core:jackson-core",
+          "Identifier": {
+            "PURL": "pkg:maven/tools.jackson.core/jackson-core@3.0.3",
+            "UID": "d59ebbf69089ccd5"
+          },
+          "Version": "3.0.3",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect"
+        },
+        {
+          "ID": "tools.jackson.core:jackson-databind:3.0.3",
+          "Name": "tools.jackson.core:jackson-databind",
+          "Identifier": {
+            "PURL": "pkg:maven/tools.jackson.core/jackson-databind@3.0.3",
+            "UID": "93cfebd71fc83e79"
+          },
+          "Version": "3.0.3",
+          "Licenses": [
+            "Apache-2.0"
+          ],
+          "Indirect": true,
+          "Relationship": "indirect",
+          "DependsOn": [
+            "com.fasterxml.jackson.core:jackson-annotations:2.20",
+            "tools.jackson.core:jackson-core:3.0.3"
+          ]
+        }
+      ],
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2021-44228",
+          "PkgID": "org.apache.logging.log4j:log4j-core:2.14.1",
+          "PkgName": "org.apache.logging.log4j:log4j-core",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+            "UID": "1e36f7410f30bc73"
+          },
+          "InstalledVersion": "2.14.1",
+          "FixedVersion": "2.15.0, 2.3.1, 2.12.2",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2021-44228",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Fingerprint": "sha256:d5e454cd10cc578589f5f2e4399ccfc5f980bdbd9bf1013f66c27193f11cf7f9",
+          "Title": "log4j-core: Remote code execution in Log4j 2.x when logs contain an attacker-controlled string value",
+          "Description": "Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. From version 2.16.0 (along with 2.12.2, 2.12.3, and 2.3.1), this functionality has been completely removed. Note that this vulnerability is specific to log4j-core and does not affect log4net, log4cxx, or other Apache Logging Services projects.",
+          "Severity": "CRITICAL",
+          "CweIDs": [
+            "CWE-20",
+            "CWE-400",
+            "CWE-502",
+            "CWE-917"
+          ],
+          "VendorSeverity": {
+            "amazon": 4,
+            "ghsa": 4,
+            "nvd": 4,
+            "redhat": 4,
+            "ubuntu": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/E:H",
+              "V3Score": 10
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+              "V2Score": 9.3,
+              "V3Score": 10
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 9.8
+            }
+          },
+          "References": [
+            "http://packetstormsecurity.com/files/165225/Apache-Log4j2-2.14.1-Remote-Code-Execution.html",
+            "http://packetstormsecurity.com/files/165260/VMware-Security-Advisory-2021-0028.html",
+            "http://packetstormsecurity.com/files/165261/Apache-Log4j2-2.14.1-Information-Disclosure.html",
+            "http://packetstormsecurity.com/files/165270/Apache-Log4j2-2.14.1-Remote-Code-Execution.html",
+            "http://packetstormsecurity.com/files/165281/Log4j2-Log4Shell-Regexes.html",
+            "http://packetstormsecurity.com/files/165282/Log4j-Payload-Generator.html",
+            "http://packetstormsecurity.com/files/165306/L4sh-Log4j-Remote-Code-Execution.html",
+            "http://packetstormsecurity.com/files/165307/Log4j-Remote-Code-Execution-Word-Bypassing.html",
+            "http://packetstormsecurity.com/files/165311/log4j-scan-Extensive-Scanner.html",
+            "http://packetstormsecurity.com/files/165371/VMware-Security-Advisory-2021-0028.4.html",
+            "http://packetstormsecurity.com/files/165532/Log4Shell-HTTP-Header-Injection.html",
+            "http://packetstormsecurity.com/files/165642/VMware-vCenter-Server-Unauthenticated-Log4Shell-JNDI-Injection-Remote-Code-Execution.html",
+            "http://packetstormsecurity.com/files/165673/UniFi-Network-Application-Unauthenticated-Log4Shell-Remote-Code-Execution.html",
+            "http://packetstormsecurity.com/files/167794/Open-Xchange-App-Suite-7.10.x-Cross-Site-Scripting-Command-Injection.html",
+            "http://packetstormsecurity.com/files/167917/MobileIron-Log4Shell-Remote-Command-Execution.html",
+            "http://packetstormsecurity.com/files/171626/AD-Manager-Plus-7122-Remote-Code-Execution.html",
+            "http://seclists.org/fulldisclosure/2022/Dec/2",
+            "http://seclists.org/fulldisclosure/2022/Jul/11",
+            "http://seclists.org/fulldisclosure/2022/Mar/23",
+            "http://www.openwall.com/lists/oss-security/2021/12/10/1",
+            "http://www.openwall.com/lists/oss-security/2021/12/10/2",
+            "http://www.openwall.com/lists/oss-security/2021/12/10/3",
+            "http://www.openwall.com/lists/oss-security/2021/12/13/1",
+            "http://www.openwall.com/lists/oss-security/2021/12/13/2",
+            "http://www.openwall.com/lists/oss-security/2021/12/14/4",
+            "http://www.openwall.com/lists/oss-security/2021/12/15/3",
+            "https://access.redhat.com/security/cve/CVE-2021-44228",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-397453.pdf",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-479842.pdf",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-714170.pdf",
+            "https://github.com/advisories/GHSA-7rjr-3q55-vv33",
+            "https://github.com/advisories/GHSA-jfh8-c2jp-5v3q",
+            "https://github.com/apache/logging-log4j2",
+            "https://github.com/apache/logging-log4j2/commit/c77b3cb39312b83b053d23a2158b99ac7de44dd3",
+            "https://github.com/apache/logging-log4j2/pull/608",
+            "https://github.com/cisagov/log4j-affected-db",
+            "https://github.com/cisagov/log4j-affected-db/blob/develop/SOFTWARE-LIST.md",
+            "https://github.com/github/advisory-database/pull/5501",
+            "https://github.com/nu11secur1ty/CVE-mitre/tree/main/CVE-2021-44228",
+            "https://github.com/tangxiaofeng7/apache-log4j-poc",
+            "https://issues.apache.org/jira/browse/LOG4J2-3198",
+            "https://issues.apache.org/jira/browse/LOG4J2-3201",
+            "https://issues.apache.org/jira/browse/LOG4J2-3214",
+            "https://issues.apache.org/jira/browse/LOG4J2-3221",
+            "https://lists.debian.org/debian-lts-announce/2021/12/msg00007.html",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/M5CSVUNV4HWZZXGOKNSK6L7RPM7BOKIB",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/M5CSVUNV4HWZZXGOKNSK6L7RPM7BOKIB/",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VU57UJDCFIASIO35GC55JMKSRXJMCDFM",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VU57UJDCFIASIO35GC55JMKSRXJMCDFM/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M5CSVUNV4HWZZXGOKNSK6L7RPM7BOKIB",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VU57UJDCFIASIO35GC55JMKSRXJMCDFM",
+            "https://logging.apache.org/log4j/2.x/changes-report.html#a2.15.0",
+            "https://logging.apache.org/log4j/2.x/manual/lookups.html#JndiLookup",
+            "https://logging.apache.org/log4j/2.x/manual/migration.html",
+            "https://logging.apache.org/log4j/2.x/security.html",
+            "https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2",
+            "https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/",
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-44228",
+            "https://packetstormsecurity.com/files/165673/UniFi-Network-Application-Unauthenticated-Log4Shell-Remote-Code-Execution.html",
+            "https://packetstormsecurity.com/files/167794/Open-Xchange-App-Suite-7.10.x-Cross-Site-Scripting-Command-Injection.html",
+            "https://packetstormsecurity.com/files/167917/MobileIron-Log4Shell-Remote-Command-Execution.html",
+            "https://packetstormsecurity.com/files/171626/AD-Manager-Plus-7122-Remote-Code-Execution.html",
+            "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032",
+            "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd",
+            "https://seclists.org/fulldisclosure/2022/Dec/2",
+            "https://seclists.org/fulldisclosure/2022/Jul/11",
+            "https://seclists.org/fulldisclosure/2022/Mar/23",
+            "https://security.netapp.com/advisory/ntap-20211210-0007",
+            "https://security.netapp.com/advisory/ntap-20211210-0007/",
+            "https://support.apple.com/kb/HT213189",
+            "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd",
+            "https://twitter.com/kurtseifried/status/1469345530182455296",
+            "https://ubuntu.com/security/notices/USN-5192-1",
+            "https://ubuntu.com/security/notices/USN-5192-2",
+            "https://ubuntu.com/security/notices/USN-5197-1",
+            "https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/Log4Shell",
+            "https://www.bentley.com/en/common-vulnerability-exposure/be-2022-0001",
+            "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+            "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-44228",
+            "https://www.cve.org/CVERecord?id=CVE-2021-44228",
+            "https://www.debian.org/security/2021/dsa-5020",
+            "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html",
+            "https://www.kb.cert.org/vuls/id/930724",
+            "https://www.lunasec.io/docs/blog/log4j-zero-day/",
+            "https://www.nu11secur1ty.com/2021/12/cve-2021-44228.html",
+            "https://www.oracle.com/security-alerts/alert-cve-2021-44228.html",
+            "https://www.oracle.com/security-alerts/cpuapr2022.html",
+            "https://www.oracle.com/security-alerts/cpujan2022.html"
+          ],
+          "PublishedDate": "2021-12-10T10:15:09.143Z",
+          "LastModifiedDate": "2025-10-27T17:40:33.68Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2021-45046",
+          "PkgID": "org.apache.logging.log4j:log4j-core:2.14.1",
+          "PkgName": "org.apache.logging.log4j:log4j-core",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+            "UID": "1e36f7410f30bc73"
+          },
+          "InstalledVersion": "2.14.1",
+          "FixedVersion": "2.16.0, 2.12.2",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2021-45046",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Fingerprint": "sha256:eef6530e2b393c61ac0ad4ec6a6115e6040884d23ba4dad20a091737e8622941",
+          "Title": "log4j-core: DoS in log4j 2.x with thread context message pattern and context lookup pattern (incomplete fix for CVE-2021-44228)",
+          "Description": "It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in an information leak and remote code execution in some environments and local code execution in all environments. Log4j 2.16.0 (Java 8) and 2.12.2 (Java 7) fix this issue by removing support for message lookup patterns and disabling JNDI functionality by default.",
+          "Severity": "CRITICAL",
+          "CweIDs": [
+            "CWE-917"
+          ],
+          "VendorSeverity": {
+            "amazon": 4,
+            "ghsa": 4,
+            "nvd": 4,
+            "redhat": 2,
+            "ubuntu": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H/E:H",
+              "V3Score": 9.1
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+              "V2Score": 5.1,
+              "V3Score": 9
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 8.1
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2021/12/14/4",
+            "http://www.openwall.com/lists/oss-security/2021/12/15/3",
+            "http://www.openwall.com/lists/oss-security/2021/12/18/1",
+            "https://access.redhat.com/security/cve/CVE-2021-44228",
+            "https://access.redhat.com/security/cve/CVE-2021-45046",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-397453.pdf",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-479842.pdf",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-661247.pdf",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-714170.pdf",
+            "https://github.com/advisories/GHSA-jfh8-c2jp-5v3q",
+            "https://issues.apache.org/jira/browse/LOG4J2-3221",
+            "https://lists.apache.org/thread/83y7dx5xvn3h5290q1twn16tltolv88f",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/EOKPQGV24RRBBI4TBZUDQMM4MEH7MXCY",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/EOKPQGV24RRBBI4TBZUDQMM4MEH7MXCY/",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SIG7FZULMNK2XF6FZRU4VWYDQXNMUGAJ",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SIG7FZULMNK2XF6FZRU4VWYDQXNMUGAJ/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EOKPQGV24RRBBI4TBZUDQMM4MEH7MXCY",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SIG7FZULMNK2XF6FZRU4VWYDQXNMUGAJ",
+            "https://logging.apache.org/log4j/2.x/security.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-45046",
+            "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032",
+            "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd",
+            "https://security.gentoo.org/glsa/202310-16",
+            "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd",
+            "https://ubuntu.com/security/notices/USN-5197-1",
+            "https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/Log4Shell",
+            "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+            "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-45046",
+            "https://www.cve.org/CVERecord?id=CVE-2021-44228",
+            "https://www.cve.org/CVERecord?id=CVE-2021-45046",
+            "https://www.debian.org/security/2021/dsa-5022",
+            "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00646.html",
+            "https://www.kb.cert.org/vuls/id/930724",
+            "https://www.openwall.com/lists/oss-security/2021/12/14/4",
+            "https://www.oracle.com/security-alerts/alert-cve-2021-44228.html",
+            "https://www.oracle.com/security-alerts/cpuapr2022.html",
+            "https://www.oracle.com/security-alerts/cpujan2022.html",
+            "https://www.oracle.com/security-alerts/cpujul2022.html"
+          ],
+          "PublishedDate": "2021-12-14T19:15:07.733Z",
+          "LastModifiedDate": "2025-10-27T17:35:56.24Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2021-45105",
+          "PkgID": "org.apache.logging.log4j:log4j-core:2.14.1",
+          "PkgName": "org.apache.logging.log4j:log4j-core",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+            "UID": "1e36f7410f30bc73"
+          },
+          "InstalledVersion": "2.14.1",
+          "FixedVersion": "2.12.3, 2.17.0, 2.3.1",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2021-45105",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Fingerprint": "sha256:3d30d6c534a53284619c51e68d81239025f57f9588202a3349e6eb0cef379e4b",
+          "Title": "log4j-core: DoS in log4j 2.x with Thread Context Map (MDC) input data contains a recursive lookup and context lookup pattern",
+          "Description": "Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3 and 2.3.1) did not protect from uncontrolled recursion from self-referential lookups. This allows an attacker with control over Thread Context Map data to cause a denial of service when a crafted string is interpreted. This issue was fixed in Log4j 2.17.0, 2.12.3, and 2.3.1.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-20",
+            "CWE-674"
+          ],
+          "VendorSeverity": {
+            "amazon": 2,
+            "ghsa": 3,
+            "nvd": 2,
+            "redhat": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+              "V3Score": 8.6
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V2Score": 4.3,
+              "V3Score": 5.9
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.9
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2021/12/19/1",
+            "https://access.redhat.com/security/cve/CVE-2021-45105",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-479842.pdf",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-501673.pdf",
+            "https://issues.apache.org/jira/browse/LOG4J2-3230",
+            "https://lists.debian.org/debian-lts-announce/2021/12/msg00017.html",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EOKPQGV24RRBBI4TBZUDQMM4MEH7MXCY",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SIG7FZULMNK2XF6FZRU4VWYDQXNMUGAJ",
+            "https://logging.apache.org/log4j/2.x/security.html",
+            "https://logging.apache.org/log4j/2.x/security.html#CVE-2021-45105",
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-45105",
+            "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0032",
+            "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd",
+            "https://security.netapp.com/advisory/ntap-20211218-0001",
+            "https://security.netapp.com/advisory/ntap-20211218-0001/",
+            "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd",
+            "https://ubuntu.com/security/notices/USN-5203-1",
+            "https://ubuntu.com/security/notices/USN-5222-1",
+            "https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/Log4Shell",
+            "https://www.cve.org/CVERecord?id=CVE-2021-45105",
+            "https://www.debian.org/security/2021/dsa-5024",
+            "https://www.kb.cert.org/vuls/id/930724",
+            "https://www.openwall.com/lists/oss-security/2021/12/19/1",
+            "https://www.oracle.com/security-alerts/cpuapr2022.html",
+            "https://www.oracle.com/security-alerts/cpujan2022.html",
+            "https://www.oracle.com/security-alerts/cpujul2022.html",
+            "https://www.zerodayinitiative.com/advisories/ZDI-21-1541",
+            "https://www.zerodayinitiative.com/advisories/ZDI-21-1541/"
+          ],
+          "PublishedDate": "2021-12-18T12:15:07.433Z",
+          "LastModifiedDate": "2024-11-21T06:31:58.17Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2021-44832",
+          "PkgID": "org.apache.logging.log4j:log4j-core:2.14.1",
+          "PkgName": "org.apache.logging.log4j:log4j-core",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+            "UID": "1e36f7410f30bc73"
+          },
+          "InstalledVersion": "2.14.1",
+          "FixedVersion": "2.3.2, 2.12.4, 2.17.1",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2021-44832",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Fingerprint": "sha256:645b8ea4638f6a5dcd06131aec56e1bdc304f23da3036a379a091d64e9b02f40",
+          "Title": "log4j-core: remote code execution via JDBC Appender",
+          "Description": "Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases 2.3.2 and 2.12.4) are vulnerable to a remote code execution (RCE) attack when a configuration uses a JDBC Appender with a JNDI LDAP data source URI when an attacker has control of the target LDAP server. This issue is fixed by limiting JNDI data source names to the java protocol in Log4j2 versions 2.17.1, 2.12.4, and 2.3.2.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-20",
+            "CWE-74"
+          ],
+          "VendorSeverity": {
+            "amazon": 2,
+            "ghsa": 2,
+            "nvd": 2,
+            "redhat": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 6.6
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:M/Au:S/C:C/I:C/A:C",
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+              "V2Score": 8.5,
+              "V3Score": 6.6
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 6.6
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2021/12/28/1",
+            "https://access.redhat.com/security/cve/CVE-2021-44832",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-784507.pdf",
+            "https://github.com/apache/logging-log4j2",
+            "https://github.com/apache/logging-log4j2/commit/05db5f9527254632b59aed2a1d78a32c5ab74f16",
+            "https://issues.apache.org/jira/browse/LOG4J2-3293",
+            "https://lists.apache.org/thread/s1o5vlo78ypqxnzn6p8zf6t9shtq5143",
+            "https://lists.debian.org/debian-lts-announce/2021/12/msg00036.html",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/EVV25FXL4FU5X6X5BSL7RLQ7T6F65MRA/",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/T57MPJUW3MA6QGWZRTMCHHMMPQNVKGFC/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EVV25FXL4FU5X6X5BSL7RLQ7T6F65MRA",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/T57MPJUW3MA6QGWZRTMCHHMMPQNVKGFC",
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-44832",
+            "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd",
+            "https://security.netapp.com/advisory/ntap-20220104-0001",
+            "https://security.netapp.com/advisory/ntap-20220104-0001/",
+            "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd",
+            "https://ubuntu.com/security/notices/USN-5222-1",
+            "https://www.cve.org/CVERecord?id=CVE-2021-44832",
+            "https://www.oracle.com/security-alerts/cpuapr2022.html",
+            "https://www.oracle.com/security-alerts/cpujan2022.html",
+            "https://www.oracle.com/security-alerts/cpujul2022.html"
+          ],
+          "PublishedDate": "2021-12-28T20:15:08.4Z",
+          "LastModifiedDate": "2024-11-21T06:31:34.783Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2025-68161",
+          "PkgID": "org.apache.logging.log4j:log4j-core:2.14.1",
+          "PkgName": "org.apache.logging.log4j:log4j-core",
+          "PkgIdentifier": {
+            "PURL": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+            "UID": "1e36f7410f30bc73"
+          },
+          "InstalledVersion": "2.14.1",
+          "FixedVersion": "2.25.3",
+          "Status": "fixed",
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-68161",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Maven",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven"
+          },
+          "Fingerprint": "sha256:dec3ff8518d798d213151aa14d449ec0f341e24bbfa7613fe42fc4a78194cdd7",
+          "Title": "The Socket Appender in Apache Log4j Core versions 2.0-beta9 through 2. ...",
+          "Description": "The Socket Appender in Apache Log4j Core versions 2.0-beta9 through 2.25.2 does not perform TLS hostname verification of the peer certificate, even when the  verifyHostName https://logging.apache.org/log4j/2.x/manual/appenders/network.html#SslConfiguration-attr-verifyHostName  configuration attribute or the  log4j2.sslVerifyHostName https://logging.apache.org/log4j/2.x/manual/systemproperties.html#log4j2.sslVerifyHostName  system property is set to true.\n\nThis issue may allow a man-in-the-middle attacker to intercept or redirect log traffic under the following conditions:\n\n  *  The attacker is able to intercept or redirect network traffic between the client and the log receiver.\n  *  The attacker can present a server certificate issued by a certification authority trusted by the Socket Appender’s configured trust store (or by the default Java trust store if no custom trust store is configured).\n\n\nUsers are advised to upgrade to Apache Log4j Core version 2.25.3, which addresses this issue.\n\nAs an alternative mitigation, the Socket Appender may be configured to use a private or restricted trust root to limit the set of trusted certificates.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-297"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/12/18/1",
+            "https://github.com/apache/logging-log4j2",
+            "https://github.com/apache/logging-log4j2/commit/3b93748497e1adbbd027fda8a5e7268ec5d0d578",
+            "https://github.com/apache/logging-log4j2/pull/4002",
+            "https://lists.apache.org/thread/xr33kyxq3sl67lwb61ggvm1fzc8k7dvx",
+            "https://logging.apache.org/cyclonedx/vdr.xml",
+            "https://logging.apache.org/log4j/2.x/manual/appenders/network.html#SslConfiguration-attr-verifyHostName",
+            "https://logging.apache.org/log4j/2.x/manual/systemproperties.html#log4j2.sslVerifyHostName",
+            "https://logging.apache.org/security.html#CVE-2025-68161",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-68161"
+          ],
+          "PublishedDate": "2025-12-18T21:15:57.96Z",
+          "LastModifiedDate": "2025-12-19T18:00:18.33Z"
+        }
+      ]
+    }
+  ]
+}

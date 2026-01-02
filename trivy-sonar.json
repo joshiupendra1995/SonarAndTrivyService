@@ -1,0 +1,54 @@
+{
+  "issues": [
+    {
+      "engineId": "trivy",
+      "ruleId": "CVE-2021-44228",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY",
+      "primaryLocation": {
+        "message": "org.apache.logging.log4j:log4j-core - log4j-core: Remote code execution in Log4j 2.x when logs contain an attacker-controlled string value",
+        "filePath": "pom.xml"
+      }
+    },
+    {
+      "engineId": "trivy",
+      "ruleId": "CVE-2021-45046",
+      "severity": "CRITICAL",
+      "type": "VULNERABILITY",
+      "primaryLocation": {
+        "message": "org.apache.logging.log4j:log4j-core - log4j-core: DoS in log4j 2.x with thread context message pattern and context lookup pattern (incomplete fix for CVE-2021-44228)",
+        "filePath": "pom.xml"
+      }
+    },
+    {
+      "engineId": "trivy",
+      "ruleId": "CVE-2021-45105",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY",
+      "primaryLocation": {
+        "message": "org.apache.logging.log4j:log4j-core - log4j-core: DoS in log4j 2.x with Thread Context Map (MDC) input data contains a recursive lookup and context lookup pattern",
+        "filePath": "pom.xml"
+      }
+    },
+    {
+      "engineId": "trivy",
+      "ruleId": "CVE-2021-44832",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY",
+      "primaryLocation": {
+        "message": "org.apache.logging.log4j:log4j-core - log4j-core: remote code execution via JDBC Appender",
+        "filePath": "pom.xml"
+      }
+    },
+    {
+      "engineId": "trivy",
+      "ruleId": "CVE-2025-68161",
+      "severity": "MAJOR",
+      "type": "VULNERABILITY",
+      "primaryLocation": {
+        "message": "org.apache.logging.log4j:log4j-core - The Socket Appender in Apache Log4j Core versions 2.0-beta9 through 2. ...",
+        "filePath": "pom.xml"
+      }
+    }
+  ]
+}
